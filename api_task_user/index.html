@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Stream</title>
+    <link rel="stylesheet" type="text/css" href="application.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Todo Stream</h1>
+        <form accept-charset="UTF-8" action="http://localhost:3000/todos" method="post" id="todo_form">
+            <input type="text" name="todo[task]" value="" id="task_input" autocomplete="off"/>
+            <input type="submit" value="Submit" onclick="window.sendForm(event)" class="task_submit"/>
+        </form>
+        <div id="container">
+        </div>
+    </div>
+</body>
+<footer>
+    <script type="text/javascript" src="application.js"></script>
+</footer>
+</html>
