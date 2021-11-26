@@ -3,5 +3,5 @@
 
 #### Features:
 - Ruby on Rails;
-- API
-- Combo HTML + CSS + JS for some visuals 
+- API;
+- Combo HTML + CSS + JS for some visuals.
